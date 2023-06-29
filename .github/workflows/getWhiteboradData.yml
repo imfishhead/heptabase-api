@@ -14,7 +14,7 @@ jobs:
 
       - name: Fetch JSON data
         run: |
-          curl https://api.dabing.one?whiteboard_id=7673672889158c0a8354f4ad8b0e9ee32e7d24d26b697f8d59c665b79da051cf > data.json
+          curl https://404overthinker-hepta-api.vercel.app?whiteboard_id=7673672889158c0a8354f4ad8b0e9ee32e7d24d26b697f8d59c665b79da051cf > data.json
 
       - name: Save JSON data to repository
         run: |
